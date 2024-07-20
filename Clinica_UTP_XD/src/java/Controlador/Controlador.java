@@ -135,7 +135,7 @@ public class Controlador extends HttpServlet{
                 registrarse(request, response);
             case "salir":
                 sesion.invalidate();
-                request.getRequestDispatcher("index.html").forward(request, response);
+                request.getRequestDispatcher("index.jsp").forward(request, response);
                 break;
             case "RegistrarCita":
                 reservarCita(request, response);

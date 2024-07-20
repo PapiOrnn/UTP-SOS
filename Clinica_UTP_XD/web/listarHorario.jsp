@@ -1,7 +1,7 @@
 <%-- 
     Document   : listarHorario
-    Created on : 13/06/2021, 11:43:34 AM
-    Author     : Christian
+    Created on : 13/06/2024, 11:43:34 AM
+    Author     : Mauricio
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

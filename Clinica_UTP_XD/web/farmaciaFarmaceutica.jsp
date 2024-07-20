@@ -1,7 +1,7 @@
 <%-- 
     Document   : farmacia
-    Created on : 14/05/2021, 03:30:25 PM
-    Author     : Christian
+    Created on : 14/05/2024, 03:30:25 PM
+    Author     : Albert
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

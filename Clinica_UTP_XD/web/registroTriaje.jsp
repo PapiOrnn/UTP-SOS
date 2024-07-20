@@ -1,7 +1,7 @@
 <%-- 
     Document   : registroTriaje
-    Created on : 08-jul-2021, 16:17:25
-    Author     : Alexander
+    Created on : 08-jul-2024, 16:17:25
+    Author     : Mauricio
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

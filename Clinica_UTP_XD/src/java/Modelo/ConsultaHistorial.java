@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Modelo;
 
 import ConfigBD.Conexion;
@@ -16,14 +12,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Deary
- */
+/** @author Equipo 3*/
+
 public class ConsultaHistorial {
-    
+     // Método para obtener el historial clínico de un paciente   
     public List<Historial> getHistorial(String id) {
-        
+        // Inicialización de variables  
         List<Historial> listHistoria= new ArrayList();
         Connection cn = null;
         ResultSet rs = null;
@@ -32,7 +26,9 @@ public class ConsultaHistorial {
         
         try
         {
+            // Obtención de la conexión            
             cn = Conexion.getConexion();
+            // Determinar la consulta SQL según si el id es nulo            
             if(id!=null){
                 sql1 = "SELECT * FROM historiaclinica INNER JOIN paciente on historiaclinica.idPaciente=paciente.idPaciente INNER JOIN "
                     + "personal on personal.idPersonal=historiaclinica.idPersonal WHERE paciente.documento=? or paciente.idPaciente=?";
@@ -46,6 +42,7 @@ public class ConsultaHistorial {
                 ps = cn.prepareStatement(sql1);
                 rs = ps.executeQuery();
             }
+            // Procesar el resultado de la consulta
             if(rs!=null)
             {
                 while(rs.next())
@@ -77,6 +74,7 @@ public class ConsultaHistorial {
         }
         finally
         {
+            // Cierre de recursos en el bloque finally           
             try
             {
                 if(rs != null) rs.close();
@@ -91,6 +89,7 @@ public class ConsultaHistorial {
         return listHistoria;
     }
     
+    // // Método para obtener la receta de un paciente
     public List<Receta> getReceta(int id) {
         
         List<Receta> listReceta= new ArrayList();
@@ -155,6 +154,7 @@ public class ConsultaHistorial {
         return listReceta;
     }
     
+   // Método para obtener el resultado del laboratorio
     public List<ResultadoLaboratorio> getResultLaboratorio(int id) {
         
         List<ResultadoLaboratorio> listResult= new ArrayList();
@@ -207,7 +207,7 @@ public class ConsultaHistorial {
         }
         return listResult;
     }
-    
+  // Método para obtener el triaje de emergencia
     public String getTriajeEmergencia(int id) {
         
         String triaje=null;

@@ -1,7 +1,7 @@
 <%-- 
     Document   : historialCitaPaciente
-    Created on : 14/05/2021, 03:23:03 PM
-    Author     : Christian
+    Created on : 14/05/2024, 03:23:03 PM
+    Author     : Albert
 --%>
 <%@page import="Entidades.Solicitud"%>
 <%@page import="java.util.List"%>

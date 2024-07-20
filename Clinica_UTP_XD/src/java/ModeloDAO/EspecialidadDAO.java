@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ModeloDAO;
 
 import ConfigBD.Conexion;
@@ -13,10 +9,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Christian
- */
+/** @author Equipo 3*/
 public class EspecialidadDAO {
      Conexion cn=new Conexion();
     Connection con;

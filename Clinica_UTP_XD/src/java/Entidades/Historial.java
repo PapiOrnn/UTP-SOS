@@ -1,14 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Entidades;
 
-/**
- *
- * @author Deary
- */
+/** @author Equipo 3*/
+
 public class Historial {
     protected int idHistoria, idResultado,idSolicitud,idPaciente,idPersonal,cantidad;
     protected String fecha, diagnostico,personal,medicamentos,observacion,triaje;

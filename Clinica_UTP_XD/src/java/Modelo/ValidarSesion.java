@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Modelo;
 
 import ConfigBD.Conexion;
@@ -16,10 +12,7 @@ import Entidades.Paciente;
 import Entidades.Personal;
 import Entidades.Rol;
 
-/**
- *
- * @author Deary
- */
+/** @author Equipo 3*/
 public class ValidarSesion {
     
     public Rol validar(String correo, String pass) {

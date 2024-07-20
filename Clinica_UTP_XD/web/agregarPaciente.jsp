@@ -1,7 +1,7 @@
 <%-- 
     Document   : reservarCita
     Created on : 14/05/2021, 03:31:17 PM
-    Author     : Christian
+    Author     : Edu
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

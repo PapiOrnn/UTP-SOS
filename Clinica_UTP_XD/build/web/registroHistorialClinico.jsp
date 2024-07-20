@@ -1,7 +1,7 @@
 <%--
     Document   : registroHistorialClinico
-    Created on : 16/05/2021, 10:27:16 PM
-    Author     : fg_mp
+    Created on : 16/05/2024, 10:27:16 PM
+    Author     : Edu
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

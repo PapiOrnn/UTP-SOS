@@ -1,7 +1,7 @@
 <%-- 
     Document   : historialClinico
-    Created on : 14/05/2021, 03:28:15 PM
-    Author     : Christian
+    Created on : 14/05/2024, 03:28:15 PM
+    Author     : Edu
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>

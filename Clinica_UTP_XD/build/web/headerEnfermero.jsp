@@ -1,7 +1,7 @@
 <%-- 
     Document   : headerEnfermero
-    Created on : 18-jun-2021, 5:42:13
-    Author     : Alexander
+    Created on : 18-jun-2024, 5:42:13
+    Author     : Albert
 --%>
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <div class="header_content d-flex align-items-center">

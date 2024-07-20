@@ -1,7 +1,7 @@
 <%-- 
     Document   : listarEspecialidad
-    Created on : 13/06/2021, 12:21:34 PM
-    Author     : Christian
+    Created on : 13/06/2024, 12:21:34 PM
+    Author     : Albert
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
